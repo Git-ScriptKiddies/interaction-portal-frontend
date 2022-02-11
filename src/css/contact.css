@@ -1,0 +1,35 @@
+.contact-container{
+    padding-top: 10vh;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 16%;
+    row-gap: 10vh;
+}
+.contact-container hr{
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 50%;
+    border: 1px solid gray;
+}
+.my-card{
+    width: 20%;
+    height: 50vh;
+    border-right: solid red;
+    border-left: solid red;
+    border-radius: 4vh;
+    overflow-y: hidden;
+}
+.my-card img{
+    width: 20vh;
+    margin-top: 2vh;
+    height: 20vh;
+    border-radius: 20vh;
+}

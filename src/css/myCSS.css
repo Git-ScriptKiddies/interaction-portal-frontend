@@ -1,0 +1,228 @@
+/* CSS reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+/* CSS variables */
+:root{
+    --navbar-height: 60px;
+}
+/* Navigation Bar */
+#navbar{
+    position: fixed;
+    display: flex;
+    top:0;
+    width: 100%;
+    align-items: center;
+}
+#navbar::before{
+    content: "";
+    background-color: gray;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.4; */
+    top: 0px;
+    left: 0px;
+}
+/* Logo and Image */
+#logo{
+    margin: 8px 16px;
+}
+#logo img{
+    margin: 3px 4px;
+    height: 40px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: aliceblue;
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    background-color: yellowgreen;
+    color: yellow;
+}
+#pfp img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+#pfp{
+    color: aliceblue;
+    position: absolute;
+    right: 20px;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding-top: 10vh;
+}
+#myForm{
+    margin-left: 10%;
+    padding-left: 2vh;
+    margin-top: 20vh;
+    position: absolute;
+    width: 20%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: orange;
+    border: 4px solid red;
+    border-radius: 10px;
+    position: fixed;
+}
+#myForm hr{
+    width: 35vh;
+}
+#myForm img{
+    height: 5vh;
+    margin: auto;
+    position: absolute;
+    float: right;
+}
+.post-header{
+    text-align: center;
+}
+.link{
+    text-decoration: 'none';
+}
+.filterAttribute h2{
+    text-decoration: none;
+    color: black;
+}
+.filterAttribute{
+    display: flex;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10vh;
+}
+#filterByEmploymentType label,input{
+    cursor: pointer;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.postItem{
+    margin-left: 38%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 50%;
+    height: 20%;
+    background-color: seagreen;
+    border: 4px solid salmon;
+    border-radius: 10px;
+    padding: 5px;
+}
+.postItem h2{
+    background-color: olive;
+    width: 90%;
+    border: 2px solid orange;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1vh;
+    margin: none;
+    text-align: center;
+}
+.postItem hr{
+    width: 90%;
+    margin: auto;
+}
+.postItem h3{
+    padding-left: 5vh;
+}
+.postDes{
+    padding-top: 1vh;
+    padding-left: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5vh;
+}
+.verticalLine {
+    border-left: 2px solid pink;
+}
+.text-center{
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.checkContainer{
+    padding-top: 2vh;
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkItem{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+}
+.filterHeader{
+    padding-top: 10vh;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.filterHeader .btn-apply{
+    position: absolute;
+    right: 10%;
+    background-color: rgb(192, 192, 233);
+    width: 10vh;
+    height: 4vh;
+    outline: none;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.filterHeader .btn{
+    position: absolute;
+    right: 17%;
+}
+.hr-class{
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+    border: 1px solid gray;
+}
+.container-fix{
+    padding: 0;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
